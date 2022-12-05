@@ -26,6 +26,9 @@ public class Simulateur implements Initializable {
 	/** Le panneau où seront dessinés/sélectionnés les personnes et les groupes */
 	@FXML
 	Pane contenu;
+	
+	/** L'ensemble des entités sélectionnées */
+	private Set<Entite> selection = new HashSet<>();
 
 
 
